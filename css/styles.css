@@ -769,3 +769,27 @@ a {
   max-width: 500px;
   margin: 0 auto;
 }
+
+/* Features */
+.feature__heading {
+  margin: 1rem 0;
+}
+
+.features {
+  gap: 4rem 2rem;
+  margin: 12rem;
+}
+
+.feature__image {
+  width: 100%;
+}
+
+.features:first-of-type {
+  margin-top: 6rem;
+}
+
+@media screen and (min-width: 768px) {
+  .features:nth-of-type(even) .feature__content {
+    order: 2;
+  }
+}
