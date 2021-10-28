@@ -12,4 +12,8 @@
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
   }
+  "dependencies": {
+   "ansi-regex": ">=5.0.1",
+  
+  }
 }
